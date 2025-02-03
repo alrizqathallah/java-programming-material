@@ -1,6 +1,6 @@
 # Fundamental Java
 
-## Apa itu Java?
+## 1. Apa itu Java?
 
 Java adalah bahasa pemrograman tingkat tinggi (*High Level Language*), dengan konsep *Object-Oriented Programming* (*OOP*) yang dikembangkan oleh *James Gosling* dan Tim di *Sun Microsystems* (sekarang dimiliki oleh *Oracle*) pada pertengahan 1990-an.
 
@@ -82,3 +82,70 @@ Java merupakan bahasa yang *open source*, artinya kode sumber dapat diakses dan 
 
     - Beberapa pustaka terkemuka Java seperti *Java Collection Framework*, *JavaFX*, *Swing*, *Java Networking API*, dan *JDBC*.
 
+### Komponen dan Arsitektur Java
+
+Java dirancang dengan konsep arsitektur berlapis, terdapat 3 (*layered*) komponen utama di dalamnya.
+
+1. **Bahasa Pemrograman Java**
+
+    - Sintaksis Java, kata kunci (*keyword*), dan berbagai fitur yang digunakan dalam penulisan.
+
+    - Kode Java akan dikompilasi kedalam bentuk bytecode oleh *Javac* (*Java Compiler*).
+
+2. **Java Runtime Environment** (**JRE**)
+
+    - JRE bertugas untuk menyiapkan segala keperluan untuk menjalankan program Java.
+
+    - Termasuk JVM, pustaka (*library*), dan komoponen lain untuk sukses dieksekusi.
+
+3. **Java Development Kit** (**JDK**)
+
+    - JDK merupakan sebuah *super-tools* yang menampung peralatan Java seperti Javac, JRE, Debugger dan lainnya.
+
+    - JDK yang dibutuhkan developer untuk menulis kode Java dan mengembangkan aplikasi Java.
+
+### Kegunaan Java
+
+Java banyak digunakan di beberapa bidang,
+
+Contoh:
+
+  1. **Aplikasi Web**
+
+    - Kebutuhan untuk aplikasi web server.
+
+    - Penggunaan framework seperti *SpringBoot*.
+
+  2. **Aplikasi Mobile (Android)**
+
+    - Kebutuhan pengembangan aplikasi mobile android, bersamaan dengan *Kotlin*.
+
+    - Penggunaan *SDK* (*Software Development Kit*), tools yang membantu developer untuk membangun aplikasi mobile dengan Java.
+
+  3. **Aplikasi Enterprise**
+
+    - Java sangat terkenal sebagai bahasa yang digunakan untuk aplikasi enterprise.
+
+    - Versi *Java EE* merupakan solusi untuk pengembangan aplikasi enterprise.
+
+  4. **Game dan Multimedia**
+
+    - Kebutuhan untuk pengembangan kompleks seperti Game dan Multimedia.
+
+    - Dengan menggunakan library atau tools spesifik yang disediakan Java.
+
+  5. **Aplikasi Khusus**
+
+    - Java juga banyak dimanfaatkan untuk pengembangan aplikasi khusus dengan kebutuhan tinggi, menyangkut portabilitas, keamanan dan ketersediaan yang baik.
+
+    - Seperti aplikasi penelitian dan simulasi yang rumit.
+
+### Keunggulan Java
+
+  - **Portabiliy**: Java dapat digunakan diberbagai platform, tanpa banyak masalah.
+
+  - **Security**: Java memiliki tingkay keamanan yang cukup baik, dengan *Security Manager*, *garbage collection*, *sandboxing* dll.
+
+  - **Scalability dan Performance**: Java dapat menyesuaikan fungsi kompilasi dengan JIT, dan sangat mendukung aplikasi yang membutuhkan kinerja tinggi.
+
+  - **Komunitas yang Luas**: Java merupakan salah satu bahasa yang sangat pesat berkembang, tentunya dengan dukungan komunitas yang kuat.
