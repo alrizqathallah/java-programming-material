@@ -1,36 +1,28 @@
 public class TypeCasting {
   public static void main(String[] args) {
-    
     // Type Casting
     /*
-     * Ketika menugaskan sebuah value data primitif ke tipe data lainnya.
-     * 
-     * Widening Casting: byte -> short -> int -> long -> float -> double 
-     * 
-     * Narrowing Casting: double -> float -> long -> int -> short -> byte
+      Type Casting:
+      - Widening Casting (Otomatis): Konversi dilakukan secara otomatis.
+      - Narrowing Casting (Manual): Konversi dilakukan secara manual.
+
+      Widening Casting: byte -> short -> int -> long -> float -> double
+      - Setiap tipe data dapat mencukupi kebutuhan yang lebih kecil.
+
+      Narrowing Casting: double -> float -> long -> int -> short -> byte
+      - Setiap tipe data tidak dapat mencukupi kebutuhan yang lebih besar.
+      - Jika dipaksa akan terjadi 'Number Overflow', karena kapasitas tidak mencukupi.
      */
 
-     //Widening Casting
-     int myInt = 9;
-     double myDouble = myInt; // Otomatis diubah menjadi double
+     byte Byte = 100;
+     short Short = Byte;
+     int Int = Short;
+     long Long = Int;
+     float Float = Long;
+     double Double = Float;
 
-     System.out.println(myInt);
-     System.out.println(myDouble);
-
-     //Narrowing Casting
-     double MyDouble = 9.78d;
-     int MyInt = (int) MyDouble; // Mengubah manual: menjadi int
-
-     System.out.println(MyDouble);
-     System.out.println(MyInt);
-
-    //Rela Life Example
-    int maxScore = 500;
-
-    int userScore = 423;
-
-    float precentage = (float) userScore / maxScore * 100.0f;
-
-    System.out.println("User Precentage: " + precentage);
+     float Float2 = (float) Double;
+     long Long2 = (long) Float2;
+     int Int2 = (int) Long2;
   }
 }
